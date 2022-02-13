@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+ <Button
+    android:id="@+id/left"
+    android:layout_width="40dp"
+    android:layout_height="40dp"
+    android:textSize="20dp"
+    android:layout_marginTop="20dp"
+    android:layout_marginLeft="20dp"
+    android:background="@null"
+    android:drawableLeft="@drawable/left"
+     android:paddingLeft="8dp"
+    ></Button>
+    <TextView
+        android:id="@+id/date"
+        android:layout_width="230dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="-40dp"
+        android:paddingTop="8dp"
+        android:textSize="20dp"
+        android:text="WISSAM FARHAT"
+        android:paddingLeft="10dp"
+        ></TextView>
+
+    <Button
+        android:id="@+id/right"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:textSize="20dp"
+        android:layout_marginTop="-40dp"
+        android:layout_marginLeft="300dp"
+
+        android:paddingLeft="8dp"
+        android:background="@null"
+        android:drawableLeft="@drawable/right"
+        ></Button>
+
+    <CheckBox
+        android:id="@+id/daily"
+        android:layout_width="100dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="10dp"
+        android:text="Daily"
+        android:checked="true"/>
+    <CheckBox
+        android:id="@+id/weekly"
+        android:layout_width="100dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="-20dp"
+        android:layout_marginLeft="90dp"
+        android:text="Weekly" />
+
+    <CheckBox
+        android:id="@+id/monthly"
+        android:layout_width="100dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="-20dp"
+        android:layout_marginLeft="190dp"
+        android:text="Monthly" />
+
+   <TextView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+      android:id="@+id/views"
+      android:text="ONLY ONE MONTH "
+      android:textColor="#ABA9A9"
+      android:layout_marginTop="5dp"
+      android:paddingTop="15dp"
+      android:textAlignment="center"
+      android:textSize="20dp"></TextView>
+
+    <ListView
+        android:id="@+id/pkg_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:drawSelectorOnTop="false"
+        android:layout_marginTop="2dp"
+
+        />
+</LinearLayout>

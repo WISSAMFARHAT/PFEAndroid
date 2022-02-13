@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/colorPrimary"/>
+    <TextView
+        android:id="@+id/about"
+    android:layout_width="200dp"
+    android:layout_height="50dp"
+    android:text="About Today "
+    android:textStyle="italic"
+    android:layout_marginTop="10dp"
+    android:layout_marginLeft="20dp"
+    android:textSize="25dp"
+    android:textAlignment="center"
+    android:textAllCaps="true"
+    android:textColor="#fff"
+    ></TextView>
+            <TextView
+                android:id="@+id/date"
+                android:layout_width="200dp"
+                android:layout_height="50dp"
+                android:text="About Today "
+                android:textStyle="italic"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="250dp"
+                android:textSize="15dp"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textColor="#fff"
+                ></TextView>
+
+            <TextView
+        android:id="@+id/des_about"
+        android:layout_width="350dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginLeft="30dp"
+        android:textSize="16dp"
+        android:text="Today you were: Productivity \n
+you used 5 hours\n
+Best used app: Whatssapp (2 hours 15 minutes)\n
+you have  passed the Goal time (4 hours) \n
+Tracking Time put a  many solutions "
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="210dp"
+        android:background="@color/colorPrimary"/>
+    <TextView
+        android:id="@+id/solution"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:text="Solution "
+        android:textStyle="italic"
+        android:layout_marginTop="220dp"
+        android:layout_marginLeft="-5dp"
+        android:textSize="25dp"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="#fff"
+        ></TextView>
+
+    <TextView
+        android:id="@+id/des_solution"
+        android:layout_width="300dp"
+        android:layout_height="270dp"
+        android:layout_marginTop="280dp"
+        android:layout_marginLeft="30dp"
+        android:textSize="16dp"
+        android:text="Description "
+        />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="560dp"
+        android:background="@color/colorPrimary"/>
+    <TextView
+        android:id="@+id/Feature"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:text="Next Day"
+        android:textStyle="italic"
+        android:layout_marginTop="570dp"
+        android:layout_marginLeft="-5dp"
+        android:textSize="25dp"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="#fff"
+        ></TextView>
+
+            <TextView
+                android:id="@+id/des_day"
+                android:layout_width="300dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="630dp"
+                android:layout_marginLeft="30dp"
+                android:textSize="16dp"
+                android:text="Description "
+                />
+
+            <TextView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="700dp"
+                android:layout_marginLeft="30dp"
+                android:background="#0277BD" />
+
+            <TextView
+                android:layout_width="180dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="700dp"
+                android:layout_marginLeft="90dp"
+                android:text="Total Phone Usage \nSocial Media:" />
+
+            <TextView
+                android:id="@+id/SocialMedia"
+                android:layout_width="180dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="700dp"
+                android:layout_marginLeft="250dp"
+                android:text="0" />
+
+            <TextView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="750dp"
+                android:layout_marginLeft="30dp"
+                android:background="#D45087" />
+
+            <TextView
+                android:layout_width="180dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="750dp"
+                android:layout_marginLeft="90dp"
+                android:text="Total Phone Usage Productive :" />
+
+
+            <TextView
+                android:id="@+id/Productive"
+                android:layout_width="180dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="750dp"
+                android:layout_marginLeft="250dp"
+                android:text="0" />
+
+            <TextView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="800dp"
+                android:layout_marginLeft="30dp"
+                android:background="#F93822" />
+
+            <TextView
+                android:layout_width="180dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="800dp"
+                android:layout_marginLeft="90dp"
+                android:text="Total Phone Usage \nNews :" />
+
+
+
+            <TextView
+                android:id="@+id/News"
+                android:layout_width="180dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="800dp"
+                android:layout_marginLeft="250dp"
+                android:text="0" />
+            <TextView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="860dp"
+                android:layout_marginLeft="30dp"
+                android:background="#866E4A" />
+
+            <TextView
+                android:layout_width="180dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="860dp"
+                android:layout_marginLeft="90dp"
+                android:text="Total Phone Usage \nGames:" />
+
+
+            <TextView
+                android:id="@+id/Games"
+                android:layout_width="180dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="860dp"
+                android:layout_marginLeft="250dp"
+                android:text="0" />
+
+            <TextView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="920dp"
+                android:layout_marginLeft="30dp"
+                android:background="#FDD20E" />
+
+            <TextView
+                android:layout_width="180dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="920dp"
+                android:layout_marginLeft="90dp"
+                android:text="Total Phone Usage \nUndifiend:" />
+
+
+            <TextView
+                android:id="@+id/Undifiend"
+                android:layout_width="180dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="920dp"
+                android:layout_marginLeft="250dp"
+                android:text="0" />
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+    android:layout_marginTop="900dp"/>
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

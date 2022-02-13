@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="350dp"
+    android:layout_height="345dp"
+    android:background="#fff"
+    android:padding="5dp"
+    android:layout_gravity="center"
+    >
+
+    <TextView
+        android:id="@+id/exit"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_gravity="end"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="12dp"
+        android:background="@drawable/cerclebackground"
+        android:gravity="center"
+        android:text="X"
+        android:textColor="@color/common_google_signin_btn_text_dark_focused"
+        android:textStyle="bold"
+        tools:ignore="InvalidId" />
+
+    <LinearLayout
+        android:layout_width="350dp"
+        android:layout_height="500dp"
+        android:layout_marginTop="2dp"
+        android:orientation="vertical">
+
+<TimePicker
+    android:id="@+id/timer"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:layout_marginTop="20dp"
+    android:timePickerMode="spinner"
+
+    ></TimePicker>
+
+<Button
+    android:id="@+id/select"
+    android:layout_width="120dp"
+    android:layout_height="30dp"
+    android:text="Select"
+    android:textSize="20dp"
+    android:background="#fff"
+    android:layout_marginTop="20dp"
+    android:layout_marginLeft="200dp"
+></Button>
+    </LinearLayout>
+</LinearLayout>

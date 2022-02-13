@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="350dp"
+    android:layout_height="295dp"
+    android:background="#fff"
+    android:padding="5dp"
+    android:layout_gravity="center"
+    >
+
+    <TextView
+        android:id="@+id/exit"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_gravity="end"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="12dp"
+        android:background="@drawable/cerclebackground"
+        android:gravity="center"
+        android:text="X"
+        android:textColor="@color/common_google_signin_btn_text_dark_focused"
+        android:textStyle="bold"
+        tools:ignore="InvalidId" />
+
+    <LinearLayout
+        android:layout_width="350dp"
+        android:layout_height="250dp"
+        android:layout_marginTop="2dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/add_list"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:layout_marginLeft="12dp"
+            android:background="@color/browser_actions_divider_color"
+            android:backgroundTint="#fff"
+            android:text="Delete Event"
+            android:textColor="@android:color/black"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            tools:ignore="OnClick" />
+
+        <TableRow
+            android:id="@+id/hr"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="15dp"
+            android:background="#000"></TableRow>
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="5dp"
+            android:paddingLeft="5dp"
+            android:paddingTop="10dp"
+            android:text="Data Event : "
+            android:textSize="20dp"
+
+            ></TextView>
+
+        <TextView
+            android:id="@+id/txtevent"
+            android:layout_width="150dp"
+            android:layout_height="70dp"
+            android:textSize="20dp"
+            android:hint="Event"
+            android:textAlignment="textStart"
+            android:maxLength="25"
+            android:layout_marginLeft="130dp"
+            android:layout_marginTop="-90dp"
+            ></TextView>
+
+
+        <Button
+            android:id="@+id/addevent"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:background="@drawable/red"
+            android:text="Delete"
+            android:textColor="#fff"
+            android:layout_marginLeft="200dp"
+            android:layout_marginTop="20dp"
+            ></Button>
+
+    </LinearLayout>
+</LinearLayout>

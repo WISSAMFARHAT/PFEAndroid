@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Usage_statics">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+    <Button
+        android:id="@+id/left"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:textSize="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:background="@null"
+        android:drawableLeft="@drawable/left"
+        android:paddingLeft="8dp"
+        ></Button>
+    <TextView
+        android:id="@+id/date"
+        android:layout_width="230dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="20dp"
+        android:paddingTop="8dp"
+        android:textSize="20dp"
+        android:text="WISSAM FARHAT"
+        android:paddingLeft="10dp"
+        ></TextView>
+
+    <Button
+        android:id="@+id/right"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:textSize="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="300dp"
+
+        android:paddingLeft="8dp"
+        android:background="@null"
+        android:drawableLeft="@drawable/right"
+        ></Button>
+
+    <CheckBox
+        android:id="@+id/daily"
+        android:layout_width="100dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="10dp"
+        android:text="Daily"
+        android:checked="true"/>
+    <CheckBox
+        android:id="@+id/weekly"
+        android:layout_width="100dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="90dp"
+        android:text="Weekly" />
+
+    <CheckBox
+        android:id="@+id/monthly"
+        android:layout_width="100dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="190dp"
+        android:text="Monthly" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/views"
+        android:text="ONLY ONE MONTH "
+        android:textColor="#ABA9A9"
+        android:layout_marginTop="105dp"
+        android:paddingTop="15dp"
+        android:textAlignment="center"
+        android:textSize="20dp"></TextView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/statics"
+        android:layout_width="320dp"
+        android:layout_height="300dp"
+        android:layout_marginTop="180dp"
+        android:layout_marginLeft="15dp"
+        app:cardBackgroundColor="#fff"
+        app:cardCornerRadius="15dp"
+        app:cardElevation="1dp"
+        >
+
+        <com.github.mikephil.charting.charts.BarChart
+
+            android:id="@+id/barchart"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </com.github.mikephil.charting.charts.BarChart>
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableStart="@drawable/ic_insert_chart_black_24dp"
+            android:paddingLeft="15dp"
+            android:paddingTop="10dp"
+            android:text="My Day"
+            android:textSize="15dp" />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="320dp"
+        android:layout_height="300dp"
+        android:layout_marginTop="500dp"
+        android:layout_marginLeft="15dp"
+        app:cardBackgroundColor="#fff"
+        app:cardCornerRadius="15dp"
+        app:cardElevation="1dp"
+        >
+
+        <TextView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:background="#FDD20E" />
+
+        <TextView
+            android:layout_width="180dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="60dp"
+            android:text="Total Phone Usage Undifiend :" />
+
+        <TextView
+            android:id="@+id/Undifiend"
+            android:layout_width="180dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="200dp"
+            android:text="0" />
+
+
+
+        <TextView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="60dp"
+            android:layout_marginLeft="10dp"
+            android:background="#0277BD" />
+
+        <TextView
+            android:layout_width="180dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="60dp"
+            android:layout_marginLeft="60dp"
+            android:text="Total Phone Usage \nSocial Media:" />
+
+        <TextView
+            android:id="@+id/SocialMedia"
+            android:layout_width="180dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="60dp"
+            android:layout_marginLeft="200dp"
+            android:text="0" />
+
+        <TextView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="110dp"
+            android:layout_marginLeft="10dp"
+            android:background="#D45087" />
+
+        <TextView
+            android:layout_width="180dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="110dp"
+            android:layout_marginLeft="60dp"
+            android:text="Total Phone Usage Productive :" />
+
+
+        <TextView
+            android:id="@+id/Productive"
+            android:layout_width="180dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="110dp"
+            android:layout_marginLeft="200dp"
+            android:text="0" />
+
+        <TextView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="160dp"
+            android:layout_marginLeft="10dp"
+            android:background="#F93822" />
+
+        <TextView
+            android:layout_width="180dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="160dp"
+            android:layout_marginLeft="60dp"
+            android:text="Total Phone Usage \nNews :" />
+
+
+
+        <TextView
+            android:id="@+id/News"
+            android:layout_width="180dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="160dp"
+            android:layout_marginLeft="200dp"
+            android:text="0" />
+        <TextView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="210dp"
+            android:layout_marginLeft="10dp"
+            android:background="#866E4A" />
+
+        <TextView
+            android:layout_width="180dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="210dp"
+            android:layout_marginLeft="60dp"
+            android:text="Total Phone Usage \nGames:" />
+
+
+        <TextView
+            android:id="@+id/Games"
+            android:layout_width="180dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="210dp"
+            android:layout_marginLeft="200dp"
+            android:text="0" />
+
+    </androidx.cardview.widget.CardView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginTop="630dp"></TextView>
+        </RelativeLayout>
+
+    </ScrollView>
+</LinearLayout>

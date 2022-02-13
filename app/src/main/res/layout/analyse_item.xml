@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="140dp"
+    android:minHeight="?android:attr/listPreferredItemHeight"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:id="@+id/package_icon"
+        android:layout_width="82dp"
+        android:layout_height="112dp"
+        android:scaleX="0.6"
+        android:scaleY="0.6"
+        android:paddingEnd="6dip" />
+
+    <TextView
+        android:id="@+id/package_name"
+        android:layout_width="251dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="16dp"
+        android:paddingLeft="8dp"
+        android:paddingStart="1dp"
+
+        android:paddingRight="100dp"
+        android:text="Google"
+        android:textSize="19sp" />
+
+    <TextView
+        android:id="@+id/Time1"
+        android:layout_width="251dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="46dp"
+        android:paddingLeft="8dp"
+        android:paddingStart="1dp"
+        android:paddingRight="100dp"
+        android:layout_marginLeft="-250dp"
+        android:text="23/5 : 24H 59 MIN"
+        android:textColor="@color/colorPrimary"
+        android:textSize="15sp" />
+
+
+    <TextView
+        android:id="@+id/Time2"
+        android:layout_width="251dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:paddingLeft="8dp"
+        android:paddingStart="1dp"
+        android:paddingRight="100dp"
+        android:layout_marginLeft="-252dp"
+        android:text="26/5 : 24 h 59 min"
+        android:textColor="@color/colorAccent"
+        android:textSize="15sp" />
+
+
+    <TextView
+        android:id="@+id/Time3"
+        android:layout_width="290dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="35dp"
+        android:paddingLeft="8dp"
+        android:layout_marginLeft="-120dp"
+        android:paddingStart="0dp"
+        android:textColor="@color/colorPrimary"
+        android:paddingRight="140dp"
+        android:textAlignment="center"
+        android:text="✓ \n +24 H "
+        android:textSize="15sp" />
+
+
+
+    </LinearLayout>

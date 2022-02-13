@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:scrollbars="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <com.github.sundeepk.compactcalendarview.CompactCalendarView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/calander"
+        android:layout_width="fill_parent"
+        android:paddingRight="10dp"
+        android:paddingLeft="10dp"
+        android:layout_height="match_parent"
+        app:compactCalendarTargetHeight="350dp"
+        app:compactCalendarTextSize="13sp"
+        app:compactCalendarBackgroundColor="#FFFFFF"
+        app:compactCalendarTextColor="#000"
+        app:compactCalendarCurrentDayIndicatorStyle="fill_large_indicator"
+        app:compactCalendarShouldSelectFirstDayOfMonthOnScroll="false"
+        app:compactCalendarCurrentSelectedDayBackgroundColor="#B71C1C"
+        app:compactCalendarCurrentSelectedDayIndicatorStyle="no_fill_large_indicator"
+        app:compactCalendarMultiEventIndicatorColor="#fff"
+        app:compactCalendarEventIndicatorStyle="no_fill_large_indicator"
+        />
+
+    <TextView
+        android:id="@+id/rows1"
+        android:layout_marginTop="-610dp"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#000"></TextView>
+
+
+
+    <TextView
+        android:id="@+id/events"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="300dp"
+        android:layout_marginLeft="8dp"
+        android:textColor="#000"
+        android:text="Holiday"
+        android:textSize="20dp"
+        android:paddingLeft="10dp"
+        android:paddingTop="15dp"
+        ></TextView>
+
+
+</LinearLayout>

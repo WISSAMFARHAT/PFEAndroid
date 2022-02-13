@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_solution"
+        android:name="com.example.time.ui.solution.SolutionFragment"
+        android:label="Today"
+        tools:layout="@layout/fragment_solution" />
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.time.ui.home.HomeFragment"
+        android:label="Home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_category"
+        android:name="com.example.time.ui.category.CategoryFragment"
+        android:label="Category"
+        tools:layout="@layout/fragment_category" />
+
+    <fragment
+        android:id="@+id/nav_data"
+        android:name="com.example.time.ui.Service.ServiceFragment"
+        android:label="Service"
+        tools:layout="@layout/fragment_service" />
+
+    <fragment
+        android:id="@+id/nav_analyse"
+        android:name="com.example.time.ui.analyse.AnalyseFragment"
+        android:label="Analyse"
+        tools:layout="@layout/fragment_analyse" />
+
+    <fragment
+        android:id="@+id/nav_calander"
+        android:name="com.example.time.ui.Calander.CalanderFragment"
+        android:label="Calander"
+        tools:layout="@layout/fragment_calander" />
+
+
+    <fragment
+        android:id="@+id/nav_help"
+        android:name="com.example.time.ui.help.HelpFragment"
+        android:label="Contact us"
+        tools:layout="@layout/fragment_help" />
+
+
+
+
+
+</navigation>
